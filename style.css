@@ -140,7 +140,8 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: #007fff;
+  /* background-color: #71afec; */
+  background: linear-gradient(to bottom, rgba(0, 128, 255, 0.9), white);
 }
 .box {
   height: 400px;
@@ -148,13 +149,29 @@ span {
   background-color: white;
   padding: 20 px 0px 15px;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.rectangle {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .box-image {
+  background-size: cover;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+.box-image1 {
   height: 300px;
   background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
 .box-content {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -164,8 +181,8 @@ span {
   color: #007185;
 }
 /* Ad */
-.ad{
-  background-color:#007fff;
+.ad {
+  background-color: #007fff;
   height: 400px;
   background-image: url("add.jpg");
   background-size: cover;
